@@ -5,11 +5,11 @@ import { Dialog } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 
 const navigation = [
-  { name: 'Главная', href: '#' },
-  { name: 'Продукция', href: '#' },
-  { name: 'Цены', href: '#' },
-  { name: 'Информация', href: '#' },
-  { name: 'Контакты', href: '#' },
+  { name: 'Главная', href: '/' },
+  { name: 'Продукция', href: '/test' },
+  { name: 'Цены', href: '/' },
+  { name: 'Информация', href: '/' },
+  { name: 'Контакты', href: '/' },
 ]
 export default function index() {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
@@ -51,9 +51,9 @@ export default function index() {
           </div>
           <div className="hidden lg:flex lg:gap-x-12">
             {navigation.map((item) => (
-              <a key={item.name} href={item.href} className="text-sm font-semibold leading-6 text-white">
+              <Link key={item.name} href={item.href} className="text-sm font-semibold leading-6 text-white">
                 {item.name}
-              </a>
+              </Link>
             ))}
           </div>
           
