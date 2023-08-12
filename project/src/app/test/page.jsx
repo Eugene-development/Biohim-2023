@@ -1,3 +1,4 @@
+"use client"
 import { FadeIn } from "@/func/motion/FadeIn";
 
 export default function page() {

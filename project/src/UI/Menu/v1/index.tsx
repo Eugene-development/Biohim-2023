@@ -30,14 +30,14 @@ export default function index() {
             />
           </Link>
           <div>
-            <span className="p-3 text-gray-50 text-2xl">БИОХИМ</span>
-            <p className="px-3 py-1 text-gray-50 text-sm">Перекись водорода</p>
+            <span className="p-4 text-gray-50 text-2xl">БИОХИМ</span>
+            <p className="px-4 py-1 text-gray-50 text-sm">Перекись водорода</p>
           </div>
         </div>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end ">
           <div className="bg-yellow-400 p-3 rounded-full">
             <svg
-              className="h-4 w-4 sm:h-6 sm:w-6  text-gray-800"
+              className="h-4 w-4 sm:h-7 sm:w-7 text-gray-800"
               fill="none"
               stroke="currentColor"
               strokeWidth="2"
@@ -52,10 +52,10 @@ export default function index() {
             </svg>
           </div>
           <div>
-            <p className="ml-2 text-gray-50">г. Москва</p>
+            <p className="ml-3 text-gray-50">г. Москва</p>
             <Link
               href="#"
-              className="ml-2 text-xl font-semibold leading-6 text-white"
+              className="ml-3 text-xl font-semibold leading-6 text-white"
             >
               +7 (930) 276-56-50
             </Link>
