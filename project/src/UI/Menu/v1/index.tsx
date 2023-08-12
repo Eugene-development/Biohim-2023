@@ -1,14 +1,15 @@
 "use client"
-
+import Link from 'next/link'
 import { useState } from 'react'
 import { Dialog } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 
 const navigation = [
-  { name: 'Product', href: '#' },
-  { name: 'Features', href: '#' },
-  { name: 'Marketplace', href: '#' },
-  { name: 'Company', href: '#' },
+  { name: 'Главная', href: '#' },
+  { name: 'Продукция', href: '#' },
+  { name: 'Цены', href: '#' },
+  { name: 'Информация', href: '#' },
+  { name: 'Контакты', href: '#' },
 ]
 export default function index() {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
@@ -17,14 +18,18 @@ export default function index() {
       <header className="absolute inset-x-0  z-50 ">
         <div className="flex items-center justify-between p-6 lg:px-8 " aria-label="Global">
           <div className="flex lg:flex-1">
-            <a href="#" className="-m-1.5 p-1.5">
-              <span className="sr-only">Your Company</span>
+            <Link href="/" className="-m-1.5 p-1.5">
+              <span className="sr-only">Компания Биохим</span>
               <img
-                className="h-8 w-auto"
+                className="h-16 w-auto"
                 src="https://storage.yandexcloud.net/brand-logo/biohim/logo/logo.svg"
-                alt=""
+                alt="логотип"
               />
-            </a>
+            </Link>
+            <div>
+            <span className='p-3 text-gray-50 text-2xl'>БИОХИМ</span>
+            <p className='px-3 py-1 text-gray-50 text-sm'>Перекись водорода</p>
+            </div>
           </div>
           <div className="hidden lg:flex lg:flex-1 lg:justify-end">
             <a href="#" className="text-sm font-semibold leading-6 text-white">
