@@ -15,7 +15,7 @@ export default function index() {
 
   return (
       <header className="absolute inset-x-0  z-50 ">
-        <nav className="flex items-center justify-between p-6 lg:px-8 " aria-label="Global">
+        <div className="flex items-center justify-between p-6 lg:px-8 " aria-label="Global">
           <div className="flex lg:flex-1">
             <a href="#" className="-m-1.5 p-1.5">
               <span className="sr-only">Your Company</span>
@@ -31,9 +31,9 @@ export default function index() {
               Log in <span aria-hidden="true">&rarr;</span>
             </a>
           </div>
-        </nav>
+        </div>
         {/* --- */}
-        <nav className="flex items-center justify-between p-6 lg:px-8 " aria-label="Global">
+        <nav className="flex mx-8 items-center justify-between py-6 lg:py-8 border-b border-indigo-300" aria-label="Global">
           <div className="flex lg:hidden">
             <button
               type="button"
