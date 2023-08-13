@@ -19,7 +19,7 @@ export default function Example() {
             }}
           />
         </div>
-        <div className=" max-w-3xl pl-16 py-32 sm:py-48 lg:py-56">
+        <div className=" max-w-4xl pl-12 py-32 sm:py-48 lg:py-56 ">
           <div className="hidden sm:mb-8 sm:flex sm:justify-left">
             <div className="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-400 ring-1 ring-white/10 hover:ring-white/20">
               <span>Хотите узнать больше о нашей продукции?{" "}</span>
@@ -29,14 +29,12 @@ export default function Example() {
               </a>
             </div>
           </div>
-          <div className="text-left">
+          <div className="text-left p-4 bg-gray-950/10">
             <h1 className="text-4xl font-bold tracking-tight text-white sm:text-7xl">
               Оптовая продажа перекиси водорода
             </h1>
-            <p className="mt-6 text-lg leading-8 text-gray-300">
-              Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui
-              lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat
-              fugiat aliqua.
+            <p className="max-w-2xl mt-6 text-lg leading-8 text-gray-300">
+              Техническая и медицинская перекись водорода в канистрах 10л, 30л и в кубовых ёмкостях по оптовым ценам от заводов производителей с доставкой или самовывозом.
             </p>
             <div className="mt-10 flex items-center justify-left gap-x-6">
               <a
