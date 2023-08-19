@@ -1,4 +1,4 @@
-export default function Example() {
+export default () => {
   return (
     <div className="bg-gray-900">
       <div className="relative isolate overflow-hidden">

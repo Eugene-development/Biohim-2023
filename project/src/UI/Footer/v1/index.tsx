@@ -1,3 +1,3 @@
-export default function index() {
-  return <div>Footer</div>;
+export default () => {
+  return <div>Footer</div>
 }

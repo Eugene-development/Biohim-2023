@@ -1,5 +1,5 @@
-import { Hero_v1 } from "@/UI";
+import { Hero, Stats } from "@/UI";
 
-export default function Example() {
-  return <Hero_v1 />;
+export default function Page() {
+  return <Hero />
 }
