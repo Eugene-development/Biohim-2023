@@ -1,10 +1,15 @@
-"use client"
+"use client";
 import { FadeIn } from "@/func/motion/FadeIn";
 
 export default function page() {
   return (
     <div className="bg-gray-900">
-      <div className="relative isolate overflow-hidden">
+      <div className="relative isolate overflow-hidden ">
+        {/* <img
+          src="https://mos-522755.oml.ru/d/himiya.png"
+          alt=""
+          className="absolute inset-0 -z-10 h-full w-full object-contain"
+        /> */}
         <div
           className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
           aria-hidden="true"
@@ -17,8 +22,9 @@ export default function page() {
             }}
           />
         </div>
+        {/* <div className=" bg-white  mt-48"> */}
         <FadeIn>
-          <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
+          <div className=" max-w-2xl py-32 sm:py-48 lg:py-56 ">
             <div className="hidden sm:mb-8 sm:flex sm:justify-center">
               <div className="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-400 ring-1 ring-white/10 hover:ring-white/20">
                 Announcing our next round of funding.{" "}
@@ -54,7 +60,7 @@ export default function page() {
             </div>
           </div>
         </FadeIn>
-
+        {/* </div> */}
         <div
           className="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]"
           aria-hidden="true"

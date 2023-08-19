@@ -22,10 +22,13 @@ export default () => {
         <div className=" max-w-4xl pl-12 py-32 sm:py-48 lg:py-56 ">
           <div className="hidden sm:mb-8 sm:flex sm:justify-left">
             <div className="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-400 ring-1 ring-white/10 hover:ring-white/20">
-              <span>Хотите узнать больше о нашей продукции?{" "}</span>
+              <span>Хотите узнать больше о нашей продукции? </span>
               <a href="#" className="font-semibold text-yellow-500">
                 <span className=" inset-0 ml-2 " aria-hidden="true" />
-                Подробнее <span aria-hidden="true" className="ml-1">&rarr;</span>
+                Подробнее{" "}
+                <span aria-hidden="true" className="ml-1">
+                  &rarr;
+                </span>
               </a>
             </div>
           </div>
@@ -34,7 +37,9 @@ export default () => {
               Оптовая продажа перекиси водорода
             </h1>
             <p className="max-w-2xl mt-6 text-lg leading-8 text-gray-300">
-              Техническая и медицинская перекись водорода в канистрах 10л, 30л и в кубовых ёмкостях по оптовым ценам от заводов производителей с доставкой или самовывозом.
+              Техническая и медицинская перекись водорода в канистрах 10л, 30л и
+              в кубовых ёмкостях по оптовым ценам от заводов производителей с
+              доставкой или самовывозом.
             </p>
             <div className="mt-10 flex items-center justify-left gap-x-6">
               <a
@@ -43,7 +48,6 @@ export default () => {
               >
                 Запросить цену
               </a>
-              
             </div>
           </div>
         </div>
@@ -62,4 +66,4 @@ export default () => {
       </div>
     </div>
   );
-}
+};
